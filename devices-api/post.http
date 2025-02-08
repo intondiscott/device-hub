@@ -1,0 +1,35 @@
+### First Post
+POST http://localhost:8080/api/v1/devices
+Content-Type: application/json
+
+{
+  "device_id": 1,
+  "device_name": "ESP32"
+}
+
+### Second Post
+POST http://localhost:8080/api/v1/devices
+Content-Type: application/json
+
+{
+  "device_name": "CLOCK32",
+  "device_status": "UNKNOWN"
+}
+
+### Delete data
+DELETE http://localhost:8080/api/v1/devices/2
+
+### Get data at id = 1
+GET localhost:8080/api/v1/devices
+
+### Update Post at 2
+PUT http://localhost:8080/api/v1/devices/2
+Content-Type: application/json
+
+
+{
+  "pin1": "4",
+  "pin2": "4.80"
+}
+
+
