@@ -3,8 +3,8 @@ POST http://localhost:8080/api/v1/devices
 Content-Type: application/json
 
 {
-  "device_id": 1,
-  "device_name": "ESP32"
+  "device_id": 2,
+  "device_name": "M5CORE2"
 }
 
 ### Second Post
@@ -23,7 +23,7 @@ DELETE http://localhost:8080/api/v1/devices/2
 GET localhost:8080/api/v1/devices
 
 ### Update Post at 2
-PUT http://localhost:8080/api/v1/devices/2
+PUT http://localhost:8080/api/v1/devices/1
 Content-Type: application/json
 
 

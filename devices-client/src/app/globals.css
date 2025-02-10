@@ -67,10 +67,6 @@ body {
   * {
     @apply border-border;
   }
-  body {
-    @apply bg-background text-foreground;
-    background-image: url("/giphy.png");
-  }
 
   .background-image {
     background-image: url("https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGV4emY0YmQwMW9wOTdrMzkzNWF6cHVkMTlhdnB5eGRrOHQ4dXoxbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Mu71dzAAGL9n0ZMbeZ/giphy.gif");
