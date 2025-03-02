@@ -1,0 +1,7 @@
+{
+  "messages": [
+    { "sent": "yo", "recieved": "hey", "timestamp": "10:00am" },
+    { "recieved": "hello", "timestamp": "10:03am" },
+    { "sent": "How are you?", "timestamp": "10:10am" }
+  ]
+}

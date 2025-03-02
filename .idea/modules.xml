@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/device-hub.iml" filepath="$PROJECT_DIR$/.idea/device-hub.iml" />
+      <module fileurl="file://$PROJECT_DIR$/devices-api/devices.iml" filepath="$PROJECT_DIR$/devices-api/devices.iml" />
     </modules>
   </component>
 </project>

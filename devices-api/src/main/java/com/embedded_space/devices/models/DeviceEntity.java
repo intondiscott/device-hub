@@ -26,6 +26,10 @@ public class DeviceEntity {
     @JsonProperty("device_status")
     private String deviceStatus;
 
+    @Column(name="has_screen")
+    @JsonProperty("has_screen")
+    private Boolean hasScreen;
+
     @Column(name = "pin1")
     @JsonProperty("pin1")
     private String pin1;

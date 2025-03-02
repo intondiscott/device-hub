@@ -11,6 +11,7 @@ public record Device(@Id
                              String deviceName,
 
                              String deviceStatus,
+                             boolean hasScreen,
 
 
                              String pin1,
